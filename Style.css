@@ -1,0 +1,150 @@
+html{
+    background-color: #f5f5f5;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.row{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.row .col-40{
+    width: 40%;
+    height: 100%;
+}
+
+.row .col-40 figure{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col-40 figure img{
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.row .col-60{
+    width: 60%;
+    height: 100vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form{
+    width: 100%;
+
+}
+
+.row .col-60 form .div-group{
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form .div-group:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-60 form .div-group ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.row .col-60 form .div-group ul li{
+    padding: 5px 10px 5px 10px;
+}
+ 
+.row .col-60 form .div-group ul li label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+.row .col-60 form .div-group ul li input{
+    width: 12px;
+    height: 12px;
+    border: solid 1px chocolate;
+}
+
+.row .col-60 form .div-group ul li input:checked{
+    border: solid 1px chocolate;
+    color:chocolate
+}
+
+.row .col-60 form .div-group:nth-child(3){
+    display: flex;
+    width: 100%;
+}
+
+.row .col-60 form .div-group:nth-child(3) input{
+    padding: 10px 7px;
+    margin: 0 auto;
+    border: solid 1px thistle;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(182, 30, 30);
+    outline: none;
+}
+.row .col-60 form .div-group ul li input:focus{
+    border: solid 2px chocolate;
+    box-sizing: border-box;
+}
+.row .col-60 form .div-group ul li input:active{
+    border: none;
+}
+.row .col-60 form .div-group:nth-child(4){
+    display: flex;
+    flex-direction: column;
+}
+.row .col-60 form .div-group:nth-child(4) label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.row .col-60 form .div-group:nth-child(4) textarea{
+    border-radius: 7px;
+    outline: none;
+    padding: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: grey;
+}
+
+.row .col-60 form .div-group:nth-child(5) button{
+    border-radius: 17px;
+    padding: 8px 5px;
+    width: 100%;
+    background-color: coral;
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+.row .col-60 form .div-group:nth-child(5) button:hover{
+    background-color: rgb(177, 79, 43);
+    cursor: pointer;
+}
+    
