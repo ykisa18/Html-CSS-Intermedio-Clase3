@@ -62,7 +62,7 @@ body{
 }
 
 .row .col-60 form .div-group:nth-child(1){
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 1.6rem;
     margin: 0;
     padding: 0;
@@ -80,8 +80,8 @@ body{
 }
  
 .row .col-60 form .div-group ul li label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
 }
 
 .row .col-60 form .div-group ul li input{
@@ -107,7 +107,7 @@ body{
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
-    color: rgb(182, 30, 30);
+    color: black;
     outline: none;
 }
 .row .col-60 form .div-group ul li input:focus{
@@ -141,6 +141,7 @@ body{
     width: 100%;
     background-color: coral;
     color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
 }
 .row .col-60 form .div-group:nth-child(5) button:hover{
